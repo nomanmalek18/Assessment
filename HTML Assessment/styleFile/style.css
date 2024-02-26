@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-header {
+    background-image: url(../img/dream-pulse-header.jpg);
+    height: 662px;
+    width: 1280px;
+    /* position: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu {
+    width: 30%;
+    height: 662px;
+    background-color: rgba(112, 128, 144, 0.49);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 99px;
+}
+
+.text {
+    border-style: ridge;
+    border: 1px solid rgb(218, 211, 211);
+    padding: 15px 15px;
+    margin-top: -5px;
+    margin-bottom: 3px;
+    margin-right: 4px;
+    margin-left: -5px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.box {
+    border: 1px solid rgb(218, 211, 211);
+    text-align: center;
+    margin: 30px;
+    margin-top: 5px;
+
+}
+
+.nav li {
+    text-align: right;
+    padding: 5px;
+    color: white;
+    list-style: none;
+}
+
+.nav {
+    padding: 10px 45px;
+}
+
+.icon {
+    margin: 10px;
+}
+
+.icon i {
+    margin: 10px;
+    color: white;
+}
+
+.foot p {
+    font-size: small;
+    color: white;
+    margin: 5px;
+}
+
+.content {
+    width: 200px;
+    height: 370px;
+    margin-right: 5rem;
+    background-color: rgba(213, 215, 217, 0.275);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    position: absolute;
+    top: 70px;
+    left: 940px;
+    }
+.col1 {
+    background-color: rgba(51, 50, 50, 0.589);
+    width: 37%;
+}
+
+.about {
+    width: 35%;
+    padding: 25px;
+}
+
+.about img {
+    height: 80px;
+    width: 30%;
+}
+
+.col2 {
+    width: 85%;
+}
+
+.col2_1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4 {
+    color: rgb(25, 95, 175);
+    text-align: left;
+}
+
+.box1 {
+    border: 1px solid rgb(218, 211, 211);
+    margin: 82px;
+    margin-top: 5px;
+
+}
+
+.name img {
+    height: 240px;
+    width: 23%;
+    padding-right: 10px;
+}
+
+.space {
+    margin: 25px;
+    margin-right: -40px;
+}
+
+.col2_3 {
+    width: 60%;
+    margin: 0 100px;
+    margin-top: 8px;
+
+}
+
+.col2_4 {
+    width: 81%;
+    display: flex;
+    flex-flow: wrap;
+    margin: 30px 96px;
+}
+
+.logo img {
+    height: 60px;
+    width: 190px;
+}
+
+.logo {
+    margin: 5px 5px;
+    border: 1px solid rgb(218, 211, 211);
+}
+
+.col2_5_1 {
+    width: 45%;
+
+}
+
+p {
+    color: rgb(68, 66, 66);
+    text-align: justify;
+}
+
+.col2_5_2 {
+    width: 45%;
+
+}
+
+.col2_5 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#form input,
+#form textarea {
+    width: 50%;
+    border: none;
+
+    margin: 5px 0px;
+    font-size: 15px;
+    border-style: outset;
+    border-bottom: 1px solid gray;
+}
+
+#form textarea {
+    padding: 10px;
+    display: block;
+}
+
+#form button {
+    margin-left: 14em;
+    margin-top: 5px;
+    border: none;
+    border-style: outset;
+    border-bottom: 1px solid gray;
+    padding: 7px;
+}

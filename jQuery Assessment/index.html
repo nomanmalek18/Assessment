@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <style>
+        #password-strength-indicator {
+            width: 200px;
+            height: 10px;
+            margin-top: 10px;
+        }
+
+        .weak {
+            background-color: #ff6666;
+        }
+
+        .medium {
+            background-color: #ffd966;
+        }
+
+        .strong {
+            background-color: #66ff66;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <form action="#">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" onkeyup="checkPasswordStrength()">
+        </form>
+    </div>
+
+    <!-- Indicator to visually display password strength -->
+    <span id="password-strength-indicator"></span>
+
+
+    <!-- footer  -->
+    <footer>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="passChechker.jQuery.js"></script>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS assessment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>Restaurant Booking Form</h1>
+
+    <form id="bookingForm">
+
+        <label for="userName">User Name:</label>
+        <input type="text" id="userName" required>
+        <br><br>
+
+        <label for="mobileNumber">Mobile Number:</label>
+        <input type="tel" id="mobileNumber" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br><br>
+
+        <label for="numberOfPersons">Number of Persons:</label>
+        <input type="number" id="numberOfPersons" required>
+        <br><br>
+
+        <div id="dateDiv">
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+            <br><br>
+        </div>
+        <label for="bookingType">Choice of Booking:</label>
+        <select id="bookingType" onchange="showOptions()">
+            <option value="fullDay">Full Day Booking</option>
+            <option value="halfDay">Half Day Booking</option>
+            <option value="hourly">Hourly Booking</option>
+        </select>
+        <br><br>
+
+        <div id="timeSlotDiv">
+            <label for="timeSlot">Time Slot:</label>
+            <select id="timeSlot">
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+            </select>
+            <br><br>
+        </div>
+
+        <div id="timeDiv">
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+            <br><br>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+
+</body>
+</html>
